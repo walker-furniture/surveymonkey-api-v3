@@ -10,6 +10,8 @@
         {
             "name": "KCar"
            ,"homepage": "https://github.com/smoopins"
+           ,"email": "smoopins+github@gmail.com"
+           ,"role": "Developer"
         }
     ]
    ,"require": { "php": ">=5.1" }
