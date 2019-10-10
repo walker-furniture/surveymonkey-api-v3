@@ -5,7 +5,7 @@
    ,"description": "PHP class for SurveyMonkey API."
    ,"keywords": ["php","surveymonkey"]
    ,"homepage": "https://github.com/walker-furniture/surveymonkey-api-v3"
-   ,"license": "OSL-3.0"
+   ,"license": [ "OSL-3.0" ]
    ,"authors": [
         {
             "name": "KCar"
