@@ -13,6 +13,10 @@
            ,"email": "smoopins+github@gmail.com"
            ,"role": "Developer"
         }
+       ,{
+            "name": "liogi"
+           ,"homepage": "https://github.com/liogi"
+        }
     ]
    ,"require": { "php": ">=5.1" }
    ,"autoload": {
