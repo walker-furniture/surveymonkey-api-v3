@@ -1,6 +1,11 @@
 PHP class for SurveyMonkey API.
 ==============================
 
+Notes
+----
+Forked from https://github.com/liogi/surveymonkey-api-v3
+* Adding a constructor variable for what SurveyMonkey refers to as "private apps", since private apps do not require an API key.
+
 
 Basic usage
 ----
@@ -24,7 +29,8 @@ $SM = new SurveyMonkey("myApiKey" , "myAccessToken",
     array(  // CURL override options
         CURLOPT_SSL_VERIFYPEER => false     // Better add cacert.pam, no?
         // ...<Any CURLOPT>...
-    )
+    ),
+    isPrivate = false
 );
 $result = $SM->getSurveyList(array(
     "fields" => array(
@@ -148,5 +154,5 @@ Tests
 
 License
 ----
-**No** rights reserved.  
-*Do whatever you want with it,  It's free*
+Open Software License 3.0
+https://spdx.org/licenses/OSL-3.0.html

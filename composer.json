@@ -1,20 +1,19 @@
 {
-  "name": "liogi/surveymonkey-api-v3",
-  "version": "1.0.0",
-  "type": "library",
-  "description": "PHP class for SurveyMonkey API.",
-  "keywords": ["php"],
-  "homepage": "https://github.com/liogi/surveymonkey-api-v3",
-  "authors": [
-    {
-      "name": "liogi",
-      "homepage": "https://github.com/liogi"
+    "name": "walker-furniture/surveymonkey-api-v3"
+   ,"version": "1.0.1"
+   ,"type": "library"
+   ,"description": "PHP class for SurveyMonkey API."
+   ,"keywords": ["php","surveymonkey"]
+   ,"homepage": "https://github.com/walker-furniture/surveymonkey-api-v3"
+   ,"license": "OSL-3.0"
+   ,"authors": [
+        {
+            "name": "KCar"
+           ,"homepage": "https://github.com/smoopins"
+        }
+    ]
+   ,"require": { "php": ">=5.1" }
+   ,"autoload": {
+        "psr-0": { "SurveyMonkey": "lib/" }
     }
-  ],
-  "require": {
-    "php": ">=5.1"
-  },
-  "autoload": {
-    "psr-0": { "SurveyMonkey": "lib/" }
-  }
 }
