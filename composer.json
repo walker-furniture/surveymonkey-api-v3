@@ -20,6 +20,6 @@
     ]
    ,"require": { "php": ">=5.1" }
    ,"autoload": {
-        "psr-0": { "SurveyMonkey": "lib/" }
+        "psr-0": { "SurveyMonkey": "src/" }
     }
 }
