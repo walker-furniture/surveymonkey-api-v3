@@ -1,6 +1,5 @@
 {
     "name": "walker-furniture/surveymonkey-api-v3"
-   ,"version": "1.0.1"
    ,"type": "library"
    ,"description": "PHP class for SurveyMonkey API."
    ,"keywords": ["php","surveymonkey"]
